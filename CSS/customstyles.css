@@ -21,7 +21,17 @@
 {
     color: #a6a4a4 !important;
 }
-.custom-font-color
+.custom-font-color-blue
 {
     color: #3f37c9;
+}
+
+.custom-font-color-pink
+{
+    color: #c93780;
+}
+
+.custom-font-color-yellow
+{
+    color: #e3e317;
 }
