@@ -40,7 +40,11 @@
 {
     color: #ffff;
 }
-
+.custom-btn-color-blue
+{
+    background-color: #3f37c9 !important;
+    color: #ffff;
+}
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
