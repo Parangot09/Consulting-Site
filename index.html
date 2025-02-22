@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!--Navbar section-->
     <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand me-5" href="#">INFOZEN Technologies</a>
@@ -39,11 +40,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Carousel Section-->
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -88,10 +93,12 @@
         </button>
     </div>
 
+    <!--Service Section-->
     <div class="container my-5 d-flex flex-wrap justify-content-center">
         <button  id="domains" type="button" class="btn btn-rounded custom-btn-color-blue" data-mdb-ripple-init><h2>Our Services</h2></button>
     </div>
 
+    <!--Service Cards-->
     <div class="container my-5 d-flex flex-wrap gap-3 justify-content-center ">
         <div class="card fade-in" style="width: 18rem;">
             <img src="assests/consulting.png" class="card-img-top" alt="...">
@@ -122,10 +129,12 @@
         </div>
     </div>
 
+    <!--Feature Section-->
     <div class="container my-5 d-flex flex-wrap justify-content-center">
         <button  id="domains" type="button" class="btn btn-rounded custom-btn-color-blue" data-mdb-ripple-init><h2>Why Us?</h2></button>
     </div>
 
+    <!--Feature Cards-->
     <div class="container my-5 d-flex flex-wrap gap-3 justify-content-center">
         <div class="card fade-in" style="width: 18rem;">
             <img src="assests/team.png" class="card-img-top" alt="...">
@@ -152,7 +161,7 @@
         </div>
     </div>
 
-
+    <!--Testimonials section-->
     <section id="about">
         <div class="row d-flex justify-content-center ms-3 me-3">
             <div class="col-md-10 col-xl-8 text-center">
@@ -164,8 +173,8 @@
             </div>
         </div>
 
-        <div class="row text-center">
-            <div class="col-md-4 mb-5 mb-md-0">
+        <div class="row text-center m-3">
+            <div class="col-md-4 mb-5 mb-md-0 ">
                 
                 <div class="card testimonial-card">
                     <div class="card-up" style="background-color: #9d789b;"></div>
@@ -225,9 +234,9 @@
         </div>
     </section>
 
-
+    <!--Contact Section-->
     <div class="container my-5">
-        <h2 class="custom-font-color-blue">Get in Touch!</h2>
+        <h2  id="Contact" class="custom-font-color-blue">Get in Touch!</h2>
     </div>
 
     <div class="container my-5 fade-in">
@@ -241,6 +250,9 @@
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-primary">Send</button>
         </div>
     </div>
 
